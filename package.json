@@ -1,0 +1,20 @@
+{
+  "name": "aprendendo-node",
+  "version": "1.0.0",
+  "description": "Aprendendo Node",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^6.10.0"
+  }
+}
